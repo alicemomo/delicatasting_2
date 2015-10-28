@@ -17,6 +17,15 @@ $header-font: "Brandon Regular", "sans-serif";
 }
 $brandon-light: "Brandon Light";
 
+@font-face {
+  font-family: "Brandon Regular";
+  src: font-url('brandon-grotesque-regular.eot');
+  src: font-url('brandon-grotesque-regular.eot?#iefix') format('embedded-opentype'),
+       font-url('brandon-grotesque-regular.woff') format('woff'),
+       font-url('brandon-grotesque-regular.ttf') format('truetype')
+}
+$brandon-regular: "Brandon Regular";
+
 // Font-size and line-height
 $base-size: 16px;
 $base-height: 1.4;
