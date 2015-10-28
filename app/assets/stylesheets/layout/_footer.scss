@@ -1,0 +1,18 @@
+#footer {
+  background-color: black;
+  height: 50px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  i {
+    padding-right: 20px;
+  }
+  a {
+    color: $gray-lighter;
+    font-size: 20px;
+    letter-spacing: 15px;
+    transition: color 0.5s ease;
+    &:hover {
+      color: $purple;
+    }
+  }
+}

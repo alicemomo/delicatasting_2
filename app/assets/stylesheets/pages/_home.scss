@@ -1,0 +1,45 @@
+#banner {
+  color: white;
+  text-align: center;
+  img {
+    width: 100%;
+    border-radius: 1px;
+  }
+}
+
+#description {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 50px;
+}
+
+#contact {
+  border-top: 1px solid black;
+  width: 300px;
+  display: block;
+  margin: auto;
+  padding-top: 40px;
+  h2 {
+  font-family: $brandon-regular;
+  font-size: 28px;
+  }
+}
+
+#article {
+  border-right: 2px dotted $gray-lighter;
+  border-left: 2px dotted $gray-lighter;
+  padding-top: 20px;
+  margin-bottom: 10px;
+  h3 {
+    font-size: 23px;
+  }
+}
+
+.container .row {
+  img {
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+}
+
+
